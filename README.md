@@ -4,6 +4,8 @@
 <br>
 <h2> Project 1 </h2>
 <p> This project involves a custom-built implementation of the STL singly-linked list.
- The main class is a called MovieChart. 
-A MovieChart has a list of User objects. 
-Each user has basic personal information as well as a list of movies. </p> 
+    The main class is a called MovieChart.
+    A MovieChart has a list of User objects.
+    Each user has basic personal information as well as a list of movies.
+    The driver code in <code> program1.cpp </code> allows a user to add and remove User objects
+    as well as update their information</p>
