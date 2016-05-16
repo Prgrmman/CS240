@@ -10,4 +10,14 @@
     The driver code in <code>program1.cpp</code> allows a user to add and remove User objects
     as well as update their information</p>
 <h2> Project 2 </h2>
-<p> This project uses a custom-built implementation of the STL heap as a max priority queue. The program plays a game of "high card," where the winner is the player with the highest card. The driver code in <code>program2.cpp</code> reads in players from file and then plays a tournament. Losers are put back on the heap if they have enough money for the next round. The game continues until the heap is empty </p>
+<p> This project uses a custom-built implementation of the STL heap as a max
+    priority queue. The program plays a game of "high card," where the winner is
+    the player with the highest card. The driver code in <code>program2.cpp</code>
+    reads in players from file and then plays a tournament. Losers are put back on
+    the heap if they have enough money for the next round. The game continues until
+    the heap is empty </p>
+<h2> Project 3 </h2>
+<p> This project involves the use of the Graph data structure. The graph is
+    implemented as a series of adjacency lists in order for the project to utilize
+    for data structures. The project  uses dijkstra's shortest path algorithm to
+    find the shortest path between cities that are read in from a file </p>
