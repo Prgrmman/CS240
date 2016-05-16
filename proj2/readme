@@ -1,0 +1,46 @@
+CS 240 Data Structures
+Spring 2016
+Program 2 README FILE
+
+Due Date: April 20th
+Submission Date: April 18th
+Author: Jonathan Terner
+
+PERCENT COMPLETE: 100%
+
+PARTS THAT ARE NOT COMPLETE: N/A
+
+BUGS: N/A
+
+FILES:
+1) Card.h
+2) Card.cpp
+3) Deck.h
+4) Deck.cpp
+5) Heap.h
+6) Heap.cpp
+7) Player.h
+8) Player.cpp
+9) Table.h
+10) Table.cpp
+11) program2.cpp
+12) players.txt
+13) players2.txt
+14) Makefile
+15) readme
+
+
+
+TO RUN:
+make run
+or
+make && ./program2
+
+
+
+BIBLIOGRAPHY:
+1) Random seed generator from Deck.cpp http://www.cplusplus.com/reference/algorithm/random_shuffle/
+
+MISCELLANEOUS:
+Note: my two test cases might take some time. Wait for them to
+finish. This is not caused by an infinite loop.

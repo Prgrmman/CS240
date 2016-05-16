@@ -1,0 +1,31 @@
+CS 240
+Spring 2016
+lab 8 README
+
+Due Date: April 27 @ 5:00pm
+Submission Date: April 25
+Author: Jonathan Terner
+
+PERCENT COMPLETE: 100%
+
+PARTS THAT ARE NOT COMPLETE: N/A
+
+BUGS: N/A
+
+FILES:
+1) Heap.cpp
+2) Heap.h
+3) Sort.cpp
+4) Sort.h
+5) Makefile
+6) readme
+
+TO RUN:
+this lab will need the inclusion of the "lab8.cpp" driver. Once the
+driver code is added:
+> make run
+or
+> make && ./lab8
+
+EXTRA CREDIT: I implemented the extra sorting algorithm. I choose
+heap sort as my optimized sorting algorithm.

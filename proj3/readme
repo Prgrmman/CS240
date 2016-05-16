@@ -1,0 +1,37 @@
+CS 240 Data Structures
+Spring 2016
+Program3 README FILE
+
+Due Date: May 11th at 11:59 pm
+Submission Date: May 11th
+Author: Jonathan Terner
+
+PERCENT COMPLETE: 100%
+
+PARTS THAT ARE NOT COMPLETE: N/A
+
+BUGS: none
+
+FILES: 
+> City.cpp
+> City.h
+> Map.cpp
+> Map.h
+> program3.cpp
+> readme
+> makefile
+> townlist3.txt ***this is my graph that is used for my tests
+
+TO RUN:
+make run
+or
+make && ./program3
+
+EXTRA CREDIT: none
+
+BIBLIOGRAPHY: none
+
+MISCELLANEOUS:
+This file does not include townlist.txt or townlist.txt2. This program will crash if you do not
+add those files to the current directory before running program3
+

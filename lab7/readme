@@ -1,0 +1,41 @@
+240 Data Structures
+Spring 2016
+Lab7 README FILE
+
+Due Date: April 6
+Submission Date: March 24
+Author: Jonathan Terner
+email: jterner1@binghamton.edu
+
+PURPOSE:
+The Purpose of this lab was to gain a complete understanding of binary
+search trees. This lab has methods depth first tree traversal, such as preorder, inorder, and
+postorder. This lab also required the ability to remove nodes from a binary search tree.
+
+
+PERCENT COMPLETE: 100 %
+
+PARTS THAT ARE NOT COMPLETE: N/A
+
+BUGS: N/A
+
+FILES:
+-> readme
+-> BSTree.cpp
+-> BSTree.h
+-> makefile
+
+SAMPLE OUTPUT:
+TEST #5: Remove two branch node promoting a 1 branch node using Short Circuit
+[2]  [3]  [4]  [5]  [6]  [8]  [9]  [12]  [13]
+
+========================PASS========================
+
+
+
+
+TO RUN:
+make && ./lab7
+or
+make test
+
