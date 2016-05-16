@@ -2,6 +2,14 @@
 <h1 align="center"> Binghamton CS 240 </h1>
 <h3> This repo contains notable projects from my Data Structure class</h3>
 <br>
+<h2> Labs </h2>
+<h3> Lab 7 </h3>
+<p> This lab contains a custom-built implementation of a Binary Search Tree,
+    containing methods for preorder, inorder, and postorder traversal as well as
+    methods for node removal </p>
+<h3> Lab 8 </h3>
+<p> This lab contains implementations of quicksort, heapsort, and mergesort </p>
+<h2> Projects / Programs </h2>
 <h3> Project 1 </h3>
 <p> This project involves a custom-built implementation of the STL singly-linked list.
     The main class is a called MovieChart.
