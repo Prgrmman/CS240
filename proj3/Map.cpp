@@ -13,7 +13,7 @@ Map::Map(string fileName){
     //read data from file
     string data;
     string name;
-    int x, y;    
+    int x, y;
 
     // read in from file
     while(getline(myfile,data)){
@@ -33,8 +33,8 @@ Map::Map(string fileName){
         }
 
     }
-} 
-// returns a pointer to the city of the given name 
+}
+// returns a pointer to the city of the given name
 City* Map::findByName(string name){
     for(auto &city: cities)
         if (city.getName() == name)
@@ -57,7 +57,7 @@ unsigned Map::adjacentDistance(City *start, City* end){
         return -1;
 }
 
-// implements shortest path algorithm 
+// implements shortest path algorithm
 unsigned int Map::pathDistance(City* start, City* dest){
     vector<City*> path = shortestPath(start, dest);
     unsigned int distance = 0;
@@ -77,7 +77,7 @@ vector<City*> Map::shortestPath(City* start, City * dest){
     deque <Node> explored;
     vector <City*> path;
 
-    // add the start node 
+    // add the start node
     Node source(start);
     source.distance = 0;
     nodes.push_back(source);
@@ -103,7 +103,7 @@ vector<City*> Map::shortestPath(City* start, City * dest){
             if (it == nodes.end())
                 continue;
 
-            Node &node = *it; 
+            Node &node = *it;
             unsigned int altDistance = current.distance + adjacentDistance(current.city, node.city);
             if ((node.distance == unsigned(-1)) || (altDistance < node.distance)){
                 node.distance = altDistance;
@@ -113,7 +113,7 @@ vector<City*> Map::shortestPath(City* start, City * dest){
     }
     // build the path starting with the destination
     Node current = *mapNode(explored, dest);
-    while(current.city != NULL){ 
+    while(current.city != NULL){
         path.push_back(current.city);
         auto it = mapNode(explored, current.previous);
         if (it == explored.end())
