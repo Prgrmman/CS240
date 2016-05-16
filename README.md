@@ -27,5 +27,5 @@
 <b>Project 3: </b>
 <p> This project involves the use of the Graph data structure. The graph is
     implemented as a series of adjacency lists in order for the project to utilize
-    for data structures. The project  uses dijkstra's shortest path algorithm to
+    more data structures. The project  uses dijkstra's shortest path algorithm to
     find the shortest path between cities that are read in from a file </p>
